@@ -13,16 +13,23 @@
         width: 100%;
       }
 
+      .mdl-card__title {
+        color: #ecf0f1;
+      }
+
       .about-us-card > .mdl-card__title {
         background-color: #9b59b6;
         height: 110px;
-        color: #ecf0f1;
       }
 
       .material-design > .mdl-card__title {
         height: 110px;
         background-color: #e74c3c;
-        color: #ecf0f1;
+      }
+
+      .announcements > .mdl-card__title {
+        height: 110px;
+        background-color: #3498db;
       }
     </style>
   </head>
@@ -65,6 +72,24 @@
                 simple interface to enable our users.
               </div>
             </div>
+          </div>
+          <div class="mdl-cell mdl-cell--3-col">
+            <form class="mdl-card mdl-shadow--2dp full-width-card material-design">
+              <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">Announcements</h2>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <div class="mdl-textfield mdl-js-textfield">
+                  <input class="mdl-textfield__input" type="text" id="email" />
+                  <label class="mdl-textfield__label" for="email">Email...</label>
+                </div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <button class="mdl-button mdl-js-button mdl-js-colored mdl-js-ripple-effect">
+                  Sign Up
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </main>
